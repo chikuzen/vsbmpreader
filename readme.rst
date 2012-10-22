@@ -11,17 +11,17 @@ Usage:
     >>> core.std.LoadPlugin('/path/to/vsbmpreader.dll')
 
     - read single file:
-    >>> clip = core.jpgr.Read('/path/to/file.bmp')
+    >>> clip = core.bmpr.Read('/path/to/file.bmp')
 
     - read two or more files:
     >>> srcs = ['/path/to/file1.bmp', '/path/to/file2.bmp', ... ,'/path/to/fileX.bmp']
-    >>> clip = core.jpgr.Read(srcs)
+    >>> clip = core.bmpr.Read(srcs)
 
     - read image sequence:
     >>> import os
     >>> dir = '/path/to/the/directory/'
     >>> srcs = [dir + src for src in os.listdir(dir) if src.endswith('.bmp')]
-    >>> clip = core.jpgr.Read(srcs)
+    >>> clip = core.bmpr.Read(srcs)
 
 Note:
 -----
