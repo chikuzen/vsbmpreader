@@ -38,8 +38,8 @@ How to compile:
 
     if you want to compile with msvc++, then
 
-    # rename bmpreader.c to bmpreader.cpp
-    # create vcxproj yourself
+    1) rename bmpreader.c to bmpreader.cpp
+    2) create vcxproj yourself
 
 sourcecode:
 -----------
